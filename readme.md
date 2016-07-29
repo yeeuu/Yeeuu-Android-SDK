@@ -2,7 +2,6 @@
 
 ### 1、配置SDK
 + 下载jar并添加到工程
-
 [下载SDK](https://github.com/yeeuu/Yeeuu-Android-SDK/blob/master/yeeuuSDK/yeeuu-sdk.jar?raw=true)
 
 + manifest添加网络权限
@@ -34,14 +33,12 @@ Yeeuu.getLockList(new LockLisener() {
 Yeeuu.OpenLock(lock.getId(), new OpenLisener() {
     @Override
     public void onSucc() {
-        Toast.makeText(MainActivity.this, "开门成功"
-                , Toast.LENGTH_SHORT).show();
+
     }
 
     @Override
     public void onFail(int errCode, String errMsg) {
-        Toast.makeText(MainActivity.this, "开门失败: " + errMsg
-                , Toast.LENGTH_SHORT).show();
+
     }
 });
 ```
