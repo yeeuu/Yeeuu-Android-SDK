@@ -3,23 +3,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#f1f1f1"
-    android:paddingTop="@dimen/activity_vertical_margin">
+    android:layout_margin="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试Token:" />
+
+    <EditText
+        android:id="@+id/edit_token"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0543d3eb4e465416157ca5ed8ea54f08a8d3c64f"
+        android:textSize="14sp" />
 
     <Button
         android:id="@+id/getlock"
-        android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="获取门锁列表" />
 
     <ListView
         android:id="@+id/locklist"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginTop="20dp" />
 
 </LinearLayout>

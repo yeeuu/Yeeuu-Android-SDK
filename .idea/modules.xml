@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Yeeuu-Android-SDK.iml" filepath="$PROJECT_DIR$/Yeeuu-Android-SDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/yeeuu-android-sdk-demo.iml" filepath="$PROJECT_DIR$/yeeuu-android-sdk-demo.iml" />
     </modules>
   </component>
 </project>
