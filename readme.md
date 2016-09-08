@@ -67,12 +67,22 @@ public class Lock {
 
 ### 异常信息
 
+```
 HOST_NOT_ONLINE      YeeBox不在线
+
 OPERATION_TOO_FREQUENT     操作太频繁
+
 LOCK_NOT_EXIST      门锁不存在
+
 LOCK_NOT_ONLINE      门锁不在线
+
 HOST_NOT_EXIST      YeeBox不存在
+
 HOST_NOT_LOGIN      YeeBox未登录
+
 CONFIG_SERVER_DOWN      服务器异常
+
 AUTH_FAIL      无效的认证参数
+
 TIME OUT      请求超时
+```
